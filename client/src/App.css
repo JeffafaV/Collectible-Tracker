@@ -1,0 +1,58 @@
+.main-div {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  padding: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.side-container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.search-container > li {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+/* .form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+} */

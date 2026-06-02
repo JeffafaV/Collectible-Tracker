@@ -1,0 +1,47 @@
+.query-container {
+  border: solid;
+  width: 30%;
+  height: 500px;
+  overflow-x: auto;
+}
+
+.query-details {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  /* gap: 15px; */
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.query-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.list-container {
+  height: 40px;
+  background-color: rgb(240, 240, 240);
+  overflow-y: auto;
+}
+
+.query-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 75%;
+  align-self: center;
+}
+
+.query-btns .btn {
+  width: 45%;
+}
+
+.heading {
+  font-size: 22px;
+}
+
+.data {
+  font-size: 18px;
+}

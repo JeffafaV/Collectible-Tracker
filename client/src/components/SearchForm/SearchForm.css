@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+  width: 75%;
+  height: 300px;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 80%; */
+  /* gap: 10px; */
+}
+
+.word-list {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  background-color: rgb(240, 240, 240);
+  overflow-y: auto;
+  /* width: 60%; */
+}
+
+.form-button {
+  width: 100%;
+}
